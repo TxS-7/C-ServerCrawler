@@ -25,15 +25,15 @@ $ make
 
 # Execute
 ## Web Server
-- $ ./myhttpd -p \<HTTP-port> -c \<command-port> -t \<number-of-threads> -d \<website-root-directory>
+- $ ./myhttpd -p \<HTTP-port> -c \<command-port> -t \<number-of-threads> -d \<website-root-directory>  
 Example: ./myhttpd -p 8000 -c 9000 -t 10 -d website
 
 ## Web Crawler
-- $ ./mycrawler -h \<remote-host/IP> -p \<remote-port> -c \<command-port> -t \<number-of-threads> -d \<destination-directory> \<starting-URL>
-Example: ./mycrawler -h 127.0.0.1 -p 8000 -c 9001 -t 10 -d output http://127.0.0.1:8000/site1/page1_16165.html
+- $ ./mycrawler -h \<remote-host/IP> -p \<remote-port> -c \<command-port> -t \<number-of-threads> -d \<destination-directory> \<starting-URL>  
+Example: ./mycrawler -h 127.0.0.1 -p 8000 -c 9001 -t 10 -d output http://127.0.0.1:8000/site1/page1_16165.html  
 ("output" is an empty writable directory)
 
 ## Web Creator
-- $ ./webcreator.sh \<destination-directory> \<text-file> \<number-of-directories> \<number-of-files-per-directory>
-Example: ./webcreator.sh website pg164.txt 4 5
+- $ ./webcreator.sh \<destination-directory> \<text-file> \<number-of-directories> \<number-of-files-per-directory>  
+Example: ./webcreator.sh website pg164.txt 4 5  
 ("website" is an empty writable directory)
