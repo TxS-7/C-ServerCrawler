@@ -1,0 +1,5 @@
+*.o
+myhttpd
+mycrawler
+jobExecutor
+docfile.txt
